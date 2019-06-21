@@ -99,4 +99,4 @@
 8. distinct
 > 优化distinct操作，在找到第一个匹配的元祖后即停止找同样值得动作
 
-
+> 原文连接原文：https://blog.csdn.net/wuseyukui/article/details/71512793
