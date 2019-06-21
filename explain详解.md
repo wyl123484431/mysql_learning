@@ -1,5 +1,6 @@
 ### explain执行计划包含的信息
 [![Vz3bYn.md.png](https://s2.ax1x.com/2019/06/21/Vz3bYn.md.png)](https://imgchr.com/i/Vz3bYn)
+
 **其中最重要的字段为：id、type、key、rows、Extra**
 
 **各字段详解**
@@ -23,6 +24,7 @@
 4. DERIVED：在from列表中包含的子查询被标记为derived（衍生），mysql或递归执行这些子查询，把结果放在零时表里 
 5. UNION：若第二个select出现在union之后，则被标记为union；若union包含在from子句的子查询中，外层select将被标记为derived 
 6. UNION RESULT：从union表获取结果的select 
+
 [![Vz8X4A.md.png](https://s2.ax1x.com/2019/06/21/Vz8X4A.md.png)](https://imgchr.com/i/Vz8X4A)
 
 #### type
