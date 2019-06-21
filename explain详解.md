@@ -12,6 +12,7 @@
 2. id不同：如果是子查询，id的序号会递增，id值越大优先级越高，越先被执行 
 [![Vz8ojK.md.png](https://s2.ax1x.com/2019/06/21/Vz8ojK.md.png)](https://imgchr.com/i/Vz8ojK)
 3. id相同又不同（两种情况同时存在）：id如果相同，可以认为是一组，从上往下顺序执行；在所有组中，id值越大，优先级越高，越先执行 
+
 [![Vz8ONd.md.png](https://s2.ax1x.com/2019/06/21/Vz8ONd.md.png)](https://imgchr.com/i/Vz8ONd)
 
 #### select_type
